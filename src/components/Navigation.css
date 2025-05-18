@@ -1,0 +1,36 @@
+.nav {
+    background: #384152;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 10px;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-item {
+    padding-inline: 10px;
+}
+
+.nav-link {
+    color: white;
+    padding-inline: 10px;
+    text-decoration: none;
+    opacity: 0.75;
+    transition: all 0.2s linear;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    opacity: 1;
+}
