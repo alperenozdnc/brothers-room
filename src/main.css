@@ -1,0 +1,9 @@
+#root {
+    background: #262a33;
+
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100vh;
+
+    color: white;
+}
