@@ -1,5 +1,5 @@
 import React from "react";
 
-export const Layout: React.FC = () => {
+export const Layouts: React.FC = () => {
     return <></>;
 };
