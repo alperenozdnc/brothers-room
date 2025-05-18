@@ -1,0 +1,53 @@
+.sections {
+    display: flex;
+    padding: 1em;
+    justify-content: center;
+}
+
+.text-section {
+    width: 40%;
+    height: 100%;
+    padding-top: 2em;
+    padding-left: 1em;
+    padding-inline: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex-direction: column;
+}
+
+.text-section-title {
+    font-size: 70px;
+    letter-spacing: -0.05em;
+    margin-bottom: 0.5em;
+    width: 100%;
+    text-align: right;
+    font-weight: 800;
+}
+
+.text-section-paragraph {
+    font-size: 15;
+    line-height: 30px;
+    text-align: right;
+}
+
+.image-section {
+    display: flex;
+    height: 50%; 
+}
+
+.container-left {
+    padding-right: 1em;
+}
+
+.image-section-image {
+    width: 399px;
+}
+
+.two {
+    padding-bottom: 1em;
+}
+
+.three {
+    height: 100%;
+}
