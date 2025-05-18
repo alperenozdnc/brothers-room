@@ -1,1 +1,2 @@
 # Brother's Room
+Every time my brother decides to change the layout of our room (once or twice a week probably), he somehow believes that every change was necessary and the room is now better than all the previous versions of it. So with this blog-like site that I am making, I will be recording each instance of the room and interview him on it. He will be rating the room's new layout and the ratings will be graphable.
