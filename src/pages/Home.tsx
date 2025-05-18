@@ -1,13 +1,11 @@
 import React from "react";
 
-import { Navigation } from "./components";
+import { Navigation } from "../components";
 
-const App: React.FC = () => {
+export const Home: React.FC = () => {
     return (
         <>
             <Navigation />
         </>
     );
 };
-
-export default App;
