@@ -1,5 +1,5 @@
 export { Home } from "./Home";
 
-export { Layout } from "./Layout";
+export { Layouts } from "./Layouts.tsx";
 export { Stats } from "./Stats";
 export { Modify } from "./Modify";
