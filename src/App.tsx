@@ -1,9 +1,11 @@
 import React from "react";
 
+import { Navigation } from "./components";
+
 const App: React.FC = () => {
     return (
         <>
-            <h1>Brothers Room</h1>
+            <Navigation />
         </>
     );
 };
