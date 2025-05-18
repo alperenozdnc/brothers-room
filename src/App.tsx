@@ -5,7 +5,7 @@ const App: React.FC = () => {
         <>
             <h1>Brothers Room</h1>
         </>
-    )
-}
+    );
+};
 
 export default App;
