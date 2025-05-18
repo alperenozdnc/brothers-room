@@ -9,6 +9,11 @@ export const Navigation: React.FC = () => {
                 <div className="nav-container">
                     <ul className="nav-list">
                         <li className="nav-item">
+                            <a href="/" className="nav-link">
+                                Home
+                            </a>
+                        </li>
+                        <li className="nav-item">
                             <a href="/layouts/" className="nav-link">
                                 Layouts
                             </a>
