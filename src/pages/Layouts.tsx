@@ -29,7 +29,7 @@ const LayoutView: React.FC<RoomLayout> = ({
 
                     <li className="layout-view-properties-rating">
                         <span className="layout-view-properties-rating-label">
-                            Rating
+                            Puanlama
                         </span>
 
                         <progress
