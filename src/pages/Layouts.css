@@ -22,6 +22,7 @@
 
 .layout-view-properties-date {
     font-size: 30px;
+    margin-bottom: .5em;
 }
 
 .layout-view-properties-rating {
@@ -63,4 +64,17 @@
 .layout-view-properties-video {
     margin-top: 1em;
     margin-left: 4em;
+}
+
+.layout-view-properties-total-time {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+
+    font-size: 12px;
+}
+
+.layout-view-properties-total-time-label {
+    font-size: 12px;
+    margin-right: 1em;
 }

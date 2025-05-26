@@ -8,6 +8,7 @@ import "./Layouts.css";
 
 interface RoomLayout {
     date: number;
+    totalTime: number;
     rating: number;
     summary: string;
     videoUrl: string;
@@ -16,6 +17,7 @@ interface RoomLayout {
 const LayoutView: React.FC<RoomLayout> = ({
     date,
     rating,
+    totalTime,
     summary,
     videoUrl,
 }) => {
@@ -24,7 +26,7 @@ const LayoutView: React.FC<RoomLayout> = ({
             <ul className="layout-view-properties">
                 <div className="layout-view-properties-left-side">
                     <li className="layout-view-properties-date">
-                        {new Date(date * 1000).toLocaleDateString()}
+                        {new Date(date * 1000).toLocaleDateString()},
                     </li>
 
                     <li className="layout-view-properties-rating">
@@ -38,6 +40,13 @@ const LayoutView: React.FC<RoomLayout> = ({
                             className="layout-view-properties-rating-content"
                             title={`${rating}/10`}
                         />
+                    </li>
+
+                    <li className="layout-view-properties-total-time">
+                        <span className="layout-view-properties-total-time-label">
+                            Yapilma suresi
+                        </span>
+                        {totalTime} dk
                     </li>
 
                     <li className="layout-view-properties-summary">
@@ -62,6 +71,7 @@ export const Layouts: React.FC = () => {
                 <LayoutView
                     date={layoutData.date}
                     summary={layoutData.summary}
+                    totalTime={layoutData.totalTime}
                     rating={layoutData.rating}
                     videoUrl={layoutData.videoUrl}
                 />
