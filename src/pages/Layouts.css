@@ -1,0 +1,66 @@
+.layout-view {
+    display: flex;
+    margin: 1em;
+    justify-content: center;
+    padding-inline: 3em;
+}
+
+.layout-view-properties {
+    background: rgba(255, 255, 255, 0.2);
+    margin: 0.5em;
+    list-style: none;
+    padding: 1em;
+    padding-inline: 5em;
+    display: flex;
+    align-items: center;
+}
+
+.layout-view-properties-left-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.layout-view-properties-date {
+    font-size: 30px;
+}
+
+.layout-view-properties-rating {
+    margin-bottom: 1em;
+    margin-top: 0.5rem;
+    display: flex;
+    width: 200px;
+    align-items: center;
+}
+
+.layout-view-properties-rating-label {
+    margin-right: 20px;
+
+    font-size: 12px;
+}
+
+.layout-view-properties-rating-content {
+    background: grey;
+    height: 10px;
+    width: 200px;
+    display: block;
+    border: none;
+    border-radius: 25px;
+}
+
+.layout-view-properties-rating-content::-webkit-progress-value {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.layout-view-properties-rating-content::-moz-progress-bar {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.layout-view-properties-summary {
+    margin-top: 1em;
+    width: 70%;
+}
+
+.layout-view-properties-video {
+    margin-top: 1em;
+    margin-left: 4em;
+}
