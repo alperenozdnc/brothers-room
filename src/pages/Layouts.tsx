@@ -26,7 +26,7 @@ const LayoutView: React.FC<RoomLayout> = ({
             <ul className="layout-view-properties">
                 <div className="layout-view-properties-left-side">
                     <li className="layout-view-properties-date">
-                        {new Date(date * 1000).toLocaleDateString()},
+                        {new Date(date * 1000).toLocaleDateString()}
                     </li>
 
                     <li className="layout-view-properties-rating">
