@@ -44,7 +44,7 @@ const LayoutView: React.FC<RoomLayout> = ({
 
                     <li className="layout-view-properties-total-time">
                         <span className="layout-view-properties-total-time-label">
-                            Yapilma suresi
+                            Düzenleme süresi
                         </span>
                         {totalTime} dk
                     </li>
