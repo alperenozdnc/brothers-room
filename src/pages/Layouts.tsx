@@ -67,13 +67,14 @@ export const Layouts: React.FC = () => {
 
     return (
         <main>
-            {data.map((layoutData) => (
+            {data.map((layoutData, idx) => (
                 <LayoutView
                     date={layoutData.date}
                     summary={layoutData.summary}
                     totalTime={layoutData.totalTime}
                     rating={layoutData.rating}
                     videoUrl={layoutData.videoUrl}
+                    key={idx}
                 />
             ))}
         </main>
