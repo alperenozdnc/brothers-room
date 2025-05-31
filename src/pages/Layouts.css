@@ -82,6 +82,8 @@
 @media only screen and (min-width: 320px) and (max-width: 430px) {
     .layout-view-properties {
         flex-direction: column;
+        max-width: 100vw;
+        padding-inline: 0;
     }
 
     .layout-view-properties-video div {
@@ -93,6 +95,8 @@
 @media only screen and (min-width: 430px) and (max-width: 768px) {
     .layout-view-properties {
         flex-direction: column;
+        width: 100vw;
+        padding-inline: 0;
     }
 
     .layout-view-properties-video div {
