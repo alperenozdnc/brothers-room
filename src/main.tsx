@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import { Home, Layouts, Stats, Modify } from "./pages";
+import { Home, Layouts, Stats } from "./pages";
 import { Page } from "./components";
 
 import "./main.css";
@@ -21,11 +21,6 @@ createRoot(document.getElementById("root")!).render(
                 />
 
                 <Route path="/stats/" element={<Page element={<Stats />} />} />
-
-                <Route
-                    path="/modify/"
-                    element={<Page element={<Modify />} />}
-                />
             </Routes>
         </BrowserRouter>
     </StrictMode>,

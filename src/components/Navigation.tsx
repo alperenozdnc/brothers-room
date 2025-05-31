@@ -25,11 +25,6 @@ export const Navigation: React.FC = () => {
                                 İstatistikler
                             </Link>
                         </li>
-                        <li className="nav-item">
-                            <Link to="/modify/" className="nav-link">
-                                Oluştur
-                            </Link>
-                        </li>
                     </ul>
                 </div>
             </nav>
