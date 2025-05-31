@@ -37,10 +37,15 @@
     display: block;
     align-items: center;
     justify-content: center;
-
 }
 
 .nav-link:hover {
     text-decoration: underline;
     opacity: 1;
+}
+
+@media only screen and (max-width: 320px) {
+    .nav-link {
+        font-size: 11px;
+    }
 }
